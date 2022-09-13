@@ -70,5 +70,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## pet-project №1
-43
-В проекте countrypagination имеется различный функционал, подгрузка данных с сервера и дальнейшее предоставление этих данных пользователю в "обертке", имеется воозможность сортировать данные, выбирать количество подгружаемых данных на странице, а так-же искать нужные данные в строке поиска.(Фильтрация и пагинация сделана немного криво из-за возможностей https://restcountries.com/ API)
+В проекте countrypagination имеется различный функционал, подгрузка данных с сервера и дальнейшее предоставление этих данных пользователю в "обертке", имеется воозможность сортировать данные, выбирать количество подгружаемых данных на странице, а так-же искать нужные данные в строке поиска.(Фильтрация,пагинация и поиск сделаны не через ссылку потому-что https://restcountries.com/ API не имеет таких возможностей)
