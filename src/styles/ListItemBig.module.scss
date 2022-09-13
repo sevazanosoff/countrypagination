@@ -1,0 +1,57 @@
+.country__big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+    height: 100vh;
+    
+    &-img{
+        max-width: 100px;
+        max-height: 100px;
+        animation-name: listBig;
+        animation-duration: 1s;
+    }   
+    &-title{
+        color: white;
+        margin-top: 10px;
+        animation-name: listBig;
+        animation-duration: 1s;
+    }
+    &-text{
+        color: white;
+        font-size: 30px;
+        margin-top: 20px;
+        animation-name: listBig;
+        animation-duration: 1s;
+    }
+    
+    &-back{
+        padding: 15px;
+        margin-top: 30px;
+        color: white;
+        font-size: 24px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 15px;  
+        transition: 0.3s ease-in;
+        animation-name: listBig;
+        animation-duration: 1s;
+        &:hover{
+            transition: 0.3s ease-out;
+            color: black;
+            background: white;
+        }
+    }
+    @keyframes listBig{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
+
